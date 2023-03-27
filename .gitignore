@@ -1,0 +1,42 @@
+# Flutter/Dart specific
+.dart_tool/
+.packages
+.pub/
+build/
+ios/Pods/
+android/app/build/
+android/build/
+.vscode/
+*.iml
+
+# Xcode specific
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+project.xcworkspace/
+
+# Android Studio/Gradle specific
+*/gradle
+*/.gradle
+*/local.properties
+*.idea/caches/
+*.idea/libraries/
+*.idea/modules.xml
+*.idea/workspace.xml
+*.ipr
+*.iws
+
+# Visual Studio Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# macOS specific
+.DS_Store
+
